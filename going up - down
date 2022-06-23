@@ -1,0 +1,8 @@
+if (Input.GetKey("s"))
+        {
+            GetComponent<Rigidbody>().AddForce(0, 0, 3, ForceMode.Force);
+        }
+        if (Input.GetKey("w"))
+        {
+            GetComponent<Rigidbody>().AddForce(0, 1, -3, ForceMode.Force);
+        }
